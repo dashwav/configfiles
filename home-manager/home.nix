@@ -44,6 +44,7 @@
   home.packages = with pkgs; [ 
     bitwarden
     bitwarden-cli
+    element-desktop
   ];
 
   programs.firefox.enable = true;
